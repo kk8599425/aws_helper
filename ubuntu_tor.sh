@@ -13,6 +13,6 @@ apt-get install -y python-pip
 apt-get install -y gcc-c++
 pip install sh
 rm -rf aws.py
-wget https://raw.githubusercontent.com/yrubertzh/aws_helper/master/aws.py
+wget https://raw.githubusercontent.com/kk8599425/aws_helper/master/aws.py
 chmod 777 aws.py
 python aws.py
